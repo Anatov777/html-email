@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #279b37;
+}
+
+.main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.rnd-link:hover {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #000000;
+}
+
+.main-image {
+  float: right;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.image {
+  width: 300px;
+}
+
+.main-text {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-image {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+  }
+}
